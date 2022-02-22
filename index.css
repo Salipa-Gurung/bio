@@ -11,21 +11,17 @@ h1{
 }
 .greet{
     background-image: url("./assets/bg1.jpg");
-    /* background-color: rgb(108, 166, 216); */
-    height: 100vh;
+    height: 100%;
     color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    /* font-weight: lighter;
-    font-size: 2em; */
 }
 .animation{
     font-weight: 200;
     font-size: 1.8em;
-    /* text-transform: uppercase; */
     letter-spacing: 0.5em;
 }
 .animation.letter{
@@ -33,9 +29,45 @@ h1{
   line-height: 1em;
 }
 .details{
-    
-    padding: 150px 40px 40px 80px;
+    padding: 4em 2em;
 }
-span{
-    font-size: 1.3em;
+
+.filter-holder, h3{
+    margin-block: 1em;
+}
+
+.github-link{
+    display:inline-block;
+    text-decoration: none;
+    background-color: #161b22;
+    color: white;
+    margin: 1em 0;
+    padding: .5em 1em;
+}
+.btn{
+    padding: 1em 3em;
+    border-radius: 40px;
+    border: none;
+}
+.btn-active{
+    background-color: rgb(108, 166, 216);
+    color: white;
+}
+img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.project-holder{
+    max-width: 350px;
+}
+
+p{
+    text-align: justify;
+}
+
+.projects-holder{
+    display: flex;
+    justify-content: space-evenly;
 }
